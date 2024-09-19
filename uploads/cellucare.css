@@ -1,0 +1,35 @@
+@import url(./style.css);
+.disclaimer {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.disclaimer p {
+    font-size: 10px;
+    margin: 10px 0;
+}
+
+/* General Styling */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2c2c2e; /* Updated body text color */
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    -webkit-filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+    transition: -webkit-filter 0.3s ease, filter 0.3s ease;
+}
+
+img:hover {
+    -webkit-filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.3));
+}
+
